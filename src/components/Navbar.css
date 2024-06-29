@@ -1,0 +1,9 @@
+.btn-outline-turquoise {
+    color: turquoise;
+    border-color: turquoise;
+}
+
+.btn-outline-turquoise:hover {
+    background-color: turquoise;
+    color: white;
+}

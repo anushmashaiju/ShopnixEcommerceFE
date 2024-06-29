@@ -1,0 +1,87 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; 
+}
+
+.chic-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 120vh;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+/* Header styles */
+.chic-header {
+  padding: 20px;
+  text-align: center;
+  background-color: #40e0d0; 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chic-header h1 {
+  margin: 0;
+  font-size: 2em; 
+}
+
+/* Content styles */
+.chic-content {
+  flex: 1;
+  padding: 40px;
+}
+
+/* Carousel styles */
+
+.chic-content .carousel img {
+  object-fit:contain; 
+  height: 50vh; 
+}
+
+/* Theme styles */
+.chic-theme {
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px; 
+}
+
+.chic-theme h2 {
+  margin-bottom: 10px;
+  color: #40e0d0;
+}
+
+/* Button styles */
+.apply-button
+ {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.apply-button {
+  background-color: #40e0d0; 
+  color: #fff;
+}
+.shop-button{
+  background-color: #40e0d0;
+}
+
+h2{
+  color: #40e0d0;
+}
+/* Optional gallery styles (if you have a chic-gallery section) */
+.chic-gallery {
+  display: flex;
+  flex-wrap: wrap; 
+  margin-top: 20px; 
+}
+
+.chic-gallery img {
+  width: 300px; 
+  margin: 10px; 
+  object-fit: cover; 
+}
+
+

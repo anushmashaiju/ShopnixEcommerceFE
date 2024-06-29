@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; 
+}
+
+.bag-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 120vh;
+  width: 100%;
+  background-color:#ffffff;
+}
+
+/* Header styles */
+.bag-header {
+  padding: 20px;
+  text-align: center;
+  background-color: #40e0d0; 
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.bag-header h1 {
+  margin: 0;
+  font-size: 2em; 
+  color: #000000; 
+}
+
+/* Content styles */
+.bag-content {
+  flex: 1; 
+  padding: 40px;
+}
+
+/* Carousel styles */
+.bag-content .carousel img {
+  object-fit:contain; 
+ max-height: 40vh;
+}
+
+/* Theme styles */
+.bag-theme {
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px; 
+}
+
+.bag-theme h2 {
+  margin-bottom: 10px; 
+  color: #40e0d0; 
+}
+
+/* Button styles */
+.apply-button,
+.next-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.apply-button {
+  background-color: #40e0d0;
+  color: #fff; 
+}
+
+.next-button {
+  background-color:#40e0d0; 
+  color: #fff; 
+  margin-top: 10px; 
+}
+
+/* Optional gallery styles (if you have a bag-gallery section) */
+.bag-gallery {
+  display: flex;
+  flex-wrap: wrap; 
+  margin-top: 20px; 
+}
+
+.bag-gallery img {
+  width: 300px; 
+  margin: 10px; 
+  object-fit: cover; 
+}

@@ -1,0 +1,100 @@
+.basic-details-container {
+  display: flex;
+  justify-content: space-between;
+  max-height: 700px;
+  overflow-y: auto;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 50px;
+}
+
+.form-section {
+  width: 60%;
+  margin-right: 20px;
+  overflow-y: auto; 
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group img {
+  max-width: 100px;
+  border-radius: 4px;
+}
+
+.pricing-details .form-group {
+  margin-bottom: 15px;
+}
+
+.pricing-details .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.pricing-details .form-group input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.form-navigation button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color:  #40e0d0;
+  color: white;
+  cursor: pointer;
+}
+
+.form-navigation button:first-child {
+  background-color: #6c757d;
+}
+
+.form-navigation button:hover {
+  opacity: 0.9;
+}
+
+.preview-section {
+  width: 35%;
+ 
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+}
+
+.card-img-top {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  margin-top: 10px;
+  color: #6c757d;
+}
+
+.card-price {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color:  #40e0d0;
+}
